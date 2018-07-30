@@ -1,0 +1,61 @@
+/*
+* @Author: Think
+* @Date:   2018-07-29 20:05:28
+* @Last Modified by:   Think
+* @Last Modified time: 2018-07-30 16:40:34
+*/
+*{
+	margin:0;
+	padding:0;
+	text-orientation:none;
+	list-style:none;
+}
+body{
+	background:url(../image/xhr.jpg), 0 0 no-repeat;
+}
+.wraper{
+	margin:15px;
+}
+.wraper .cavs{
+	border:1px solid blue;
+	box-shadow:3px 5px 1px rgba(0,0,0,0.2);
+	margin-bottom:20px;
+}
+.wraper .btn-list{
+	width:1000px;
+	text-align:center;
+
+}
+
+.wraper .btn-list li{
+	display:inline-block;
+	margin-left:10px;
+}
+
+.wraper .btn-list li input{
+	background-color:yellow;
+	display:block;
+	color:#aaa;
+	border:none;
+	padding:10px 20px;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:25px;
+	transition-duration:0.2s;
+
+}
+.wraper .btn-list li:last-child input{
+	width:150px;
+	padding:0;
+	border:0px;
+	border-radius:0px;
+}
+.wraper .btn-list li:last-child input:hover{
+	box-shadow:none;
+	border:0px;
+
+}
+.wraper .btn-list li input:hover{
+	border:1px solid #ccc;
+	box-shadow:0 12px 16px 0 rgba(0,0,0,0.5);
+}
